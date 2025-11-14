@@ -32,7 +32,7 @@ public class UserService {
         Organization org = null;
         if (dto.getOrganizationId() != null) {
             org = organizationRepository.findById(dto.getOrganizationId())
-                    .orElse(null);
+                    .orElseThrow(() -> new RuntimeException("Organização não encontrada para o id " + dto.getOrganizationId()));
         }
 
         User user = new User();
