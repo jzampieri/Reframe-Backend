@@ -18,6 +18,12 @@ public class User {
     private String email;
 
     @Column(nullable = false)
+    private Integer xp = 0;
+
+    @Column(nullable = false)
+    private Integer level = 1;
+
+    @Column(nullable = false)
     private String password;
 
     @Enumerated(EnumType.STRING)
@@ -45,6 +51,14 @@ public class User {
     public String getName() {
         return name;
     }
+
+    public Integer getXp() {return xp; }
+
+    public void setXp(Integer xp) { this.xp = xp; }
+
+    public Integer getLevel() { return level; }
+
+    public void setLevel(Integer level) { this.level = level; }
 
     public void setName(String name) {
         this.name = name;
