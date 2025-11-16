@@ -248,6 +248,16 @@ graph TD
     end
 ```
 
+---
+
+##  Integrantes do Grupo
+
+* Julio Cesar Zampieri (RM: 98772)
+* João Gabriel Dias de Mello do Nascimento (RM: 99092)
+* Ricardo Augusto de Matos Filho (RM: 95906)
+
+---
+
 ##  Contato
 
 Dúvidas ou sugestões? Entre em contato pelo GitHub ou e-mail: **[contact.zampieri@gmail.com](mailto:contact.zampieri@gmail.com)**
